@@ -1,0 +1,113 @@
+.body {
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+}
+
+#left {
+  height: 1050px;
+  width: 300px;
+  background-color: #247ba0;
+}
+
+.left__top {
+  height: 355px;
+  background-color: #105877;
+}
+
+.left__bottom {
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.info {
+  color: #5fa4c1;
+}
+
+.info__detail {
+  color: #fff;
+  line-height: 30px;
+}
+
+.info__detail a {
+  color: #fff;
+}
+
+.left__top h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.skill {
+  padding: 20px;
+  height: 300px;
+  color: #fff;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.skill-bar {
+  position: relative;
+  height: 7px;
+  width: 230px;
+  margin-top: 3px;
+  background-color: #5fa4c1;
+}
+
+.skill-bar:hover {
+  cursor: pointer;
+  outline: 1px dashed #5fa4c1;
+}
+
+.skill__title {
+  margin: 15px 0 7px 0;
+}
+
+.skill__value {
+  /* box-sizing: border-box; */
+  /* width: 80%; */
+  height: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.game {
+  width: 80%;
+}
+
+.dev {
+  width: 20%;
+}
+
+.English {
+  width: 10%;
+}
+
+#right {
+  height: auto;
+  width: 80%;
+}
+
+.profile {
+  margin: 20px 20px 10px 20px;
+  padding: 20px;
+  border-radius: 120px;
+  width: 200px;
+  height: 200px;
+}
