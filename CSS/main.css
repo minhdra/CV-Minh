@@ -115,7 +115,7 @@ ul {
 
 .right__header-1-bar {
   position: absolute;
-  background-color: #cccccc;
+  background-color: #247ba0;
   height: 1px;
   width: 400px;
   top: 25px;
@@ -151,10 +151,11 @@ ul {
 .cup,
 .more-info,
 .hobby {
-  border: 1px dashed #686565;
-  width: 798px;
-  height: 13.7%;
-  border-left: none;
+  /* border: 1px dashed #686565; */
+  border-bottom: 1px dashed #686565;
+  border-right: 1px solid #247ba0;
+  width: 799px;
+  height: 13.8%;
 }
 
 .Experience {
@@ -162,29 +163,12 @@ ul {
 }
 
 .more-info {
-  height: 14.1%;
+  height: 14%;
 }
 
 .hobby {
-  height: 24.4%;
-}
-
-.Experience,
-.certificate,
-.cup,
-.more-info,
-.hobby {
-  border-top: none;
-}
-
-.Experience,
-.certificate,
-.cup,
-.more-info,
-.hobby {
-  border-left: 1px;
-  border-left-style: solid;
-  border-left-color: #247ba0;
+  height: 24.3%;
+  border-bottom: 1px solid #247ba0;
 }
 
 .knowledge i,
@@ -211,6 +195,7 @@ ul {
 .fa-laugh-beam {
   font-size: 2em;
   padding-left: 20px;
+  color: #263831;
 }
 
 .knowledge h3,
@@ -221,6 +206,7 @@ ul {
 .hobby h3 {
   padding-left: 10px;
   margin: 12px 0px 16px 0px;
+  color: #263831;
 }
 
 /* .knowledge h4 {
@@ -232,6 +218,7 @@ p {
   margin: 0;
   margin-top: 3px;
   font-size: 0.9rem;
+  color: #4c5647;
 }
 
 .education-school,
@@ -280,7 +267,7 @@ p {
 .knowledge a,
 .Experience a {
   text-decoration: none;
-  color: inherit;
+  color: #000;
 }
 
 .utehy:hover {
